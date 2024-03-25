@@ -1,0 +1,11 @@
+python run_mapelites.py --env-name udacity \
+    --udacity-exe-path "C:\Users\sorokin\Downloads\UdacitySimWindows\self_driving_car_nanodegree_program.exe" \
+    --agent-type supervised \
+    --model-path "models/mixed-chauffeur.h5" \
+    --min-angle 100 \
+    --max-angle 300 \
+    --population-size 20 \
+    --iteration-runtime 150 \
+    --mutation-extent 6 \
+    --feature-combination turns_count-curvature \
+    --num-runs 5
